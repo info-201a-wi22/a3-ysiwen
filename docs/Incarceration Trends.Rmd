@@ -1,5 +1,5 @@
 ---
-title: "Interaction Trends"
+title: "Incarceration Trends"
 output:
   html_document:
     df_print: paged
@@ -9,7 +9,7 @@ output:
 This project is related to Incarceration trends in USA. The data is obtained by Vera Institution of Justice. The variables, that I chose to analyze are:
 year (year in which data is collected), county_name (Name of County), state(Abbreviation of State), black_jail_pop (Jail Population count black), white_jail_pop (Jail Population Count white), native_jail_pop_rate (Jail Population Rate, Native American), female_jail_pop_rate (Jail Population Rate, Female), female_jail_adult_pop (Jail Population, Female Adult). The main aim is to find the trends for white and black jail population. The first few rows of data are shown below:
 ```{r}
-data <- read.csv("incarceration_trends.csv")
+data <- read.csv("https://raw.githubusercontent.com/vera-institute/incarceration-trends/master/incarceration_trends.csv")
 head(data)
 ```
 
